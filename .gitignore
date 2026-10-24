@@ -1,0 +1,39 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python caches and local tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Generated model and runtime artifacts
+*.h5
+*.hdf5
+*.keras
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+*.pkl
+*.joblib
+*.dll
+*.pyd
+*.lib
+
+# Local build output
+build/
+dist/
+*.egg-info/
